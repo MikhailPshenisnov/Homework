@@ -12,4 +12,4 @@ poor_sum = full_sum - rich_sum
 poor_money = money[rich + 1::]
 poor_percent = poor_sum / sum(poor_money)
 the_smallest_contribution = int(min(money) * poor_percent)
-print(f'{rich_sum};{smallest_contribution}')
+print(f'{rich_sum};{the_smallest_contribution}')
